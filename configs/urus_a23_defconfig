@@ -296,6 +296,7 @@ CONFIG_BOOTSTAGE_STASH_SIZE=4096
 # CONFIG_SATA_BOOT is not set
 # CONFIG_SD_BOOT is not set
 # CONFIG_SPI_BOOT is not set
+CONFIG_BOOTDELAY=2
 
 #
 # Console
@@ -373,7 +374,7 @@ CONFIG_SYS_PROMPT="urus> "
 #
 # Autoboot options
 #
-# CONFIG_AUTOBOOT is not set
+CONFIG_AUTOBOOT=y
 # CONFIG_AUTOBOOT_KEYED is not set
 
 #
